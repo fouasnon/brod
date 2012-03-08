@@ -4,7 +4,7 @@ import setuptools
 
 setuptools.setup(
     name = 'brod',
-    version = '0.2.0',
+    version = '0.3.0',
     license = 'MIT',
     description = open('README.md').read(),
     author = "Datadog, Inc.",
