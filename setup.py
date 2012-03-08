@@ -2,10 +2,6 @@
 
 import setuptools
 
-install_requires = [
-    "zc.zk==0.5.2",
-]
-
 setuptools.setup(
     name = 'brod',
     version = '0.2.0',
@@ -18,7 +14,8 @@ setuptools.setup(
     packages = ['brod'],
     zip_safe = True,
     verbose = False,
-    install_requires=install_requires,
+    install_requires = ["zc.zk==0.7.0",
+                        "zc-zookeeper-static==3.3.4.0"],
     entry_points={
         'console_scripts': [
             'broderate = brod.util:broderate'
